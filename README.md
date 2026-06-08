@@ -289,3 +289,43 @@ Team responsibilities included:
 - Presentation Preparation
 
 This collaborative workflow ensured effective task distribution, streamlined development, and successful completion of the project objectives.
+
+## How to Run the Notebook
+
+Follow the steps below to execute the project successfully:
+
+1. Open the notebook in Google Colab.
+2. Mount Google Drive.
+3. Ensure the dataset files are available in the appropriate Drive directory.
+4. Update file paths if necessary.
+5. Run all notebook cells sequentially.
+6. Review the generated outputs in the `figures/`, `outputs/`, and `submissions/` folders.
+7. Submit the top 5 generated CSV files in the required competition format.
+
+---
+
+## Main Libraries Used
+
+The project utilizes the following Python libraries:
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+* xgboost
+* lightgbm
+* catboost
+* shap
+* missingno
+
+These libraries support data manipulation, visualization, machine learning, model interpretation, and missing value analysis.
+
+---
+
+## Final Notes
+
+This project demonstrates a complete end-to-end data science workflow, including data exploration, preprocessing, model development, performance evaluation, explainable AI, critical analysis, and submission generation.
+
+The project highlights the application of machine learning techniques to a real-world healthcare prediction problem and emphasizes both predictive performance and model interpretability.
+
