@@ -189,16 +189,10 @@ The notebook automatically generates several output folders and files to store v
 
 The generated project structure includes:
 
-```text
-figures/         Saved EDA, performance, and XAI visualizations
-outputs/         Summary tables, model results, and analysis reports
-submissions/     Final prediction CSV files
-documentation/   Team notes and project documentation
-README.md        Project documentation
-
 ## Important Plots Generated
 
 The project generates a variety of visualizations to support data exploration, model evaluation, and model interpretability. These plots help identify patterns, assess performance, and explain model predictions.
+
 
 The generated plots include:
 
@@ -219,7 +213,6 @@ The generated plots include:
 
 These visualizations provide valuable insights into the dataset, model behaviour, and prediction outcomes.
 
----
 
 ## Summary Tables Generated
 
@@ -241,3 +234,4 @@ The generated tables include:
 - Submission Summary Table
 
 These tables provide a structured overview of the dataset, preprocessing decisions, model performance, and final project outputs.
+
