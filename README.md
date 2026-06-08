@@ -189,6 +189,14 @@ The notebook automatically generates several output folders and files to store v
 
 The generated project structure includes:
 
+| File / Folder | Description |
+|--------------|-------------|
+| `figures/` | Saved EDA, performance, and XAI visualizations |
+| `outputs/` | Summary tables, model results, and analysis reports |
+| `submissions/` | Final prediction CSV files |
+| `documentation/` | Team notes and project documentation |
+| `README.md` | Project documentation |
+
 ## Important Plots Generated
 
 The project generates a variety of visualizations to support data exploration, model evaluation, and model interpretability. These plots help identify patterns, assess performance, and explain model predictions.
@@ -235,3 +243,49 @@ The generated tables include:
 
 These tables provide a structured overview of the dataset, preprocessing decisions, model performance, and final project outputs.
 
+## Submission Files
+
+The final prediction files are stored in the `submissions/` directory. These files contain the model predictions generated for the testing dataset and are formatted according to the competition requirements.
+
+Each submission file contains the following columns:
+
+- `respondent_id`
+- `seasonal_vaccine`
+
+The top-performing models were selected based on validation performance and exported as separate submission files.
+
+Example file names:
+
+| Rank | Submission File |
+|------|----------------|
+| 1 | `challenge_submission_group_X_order_1.csv` |
+| 2 | `challenge_submission_group_X_order_2.csv` |
+| 3 | `challenge_submission_group_X_order_3.csv` |
+| 4 | `challenge_submission_group_X_order_4.csv` |
+| 5 | `challenge_submission_group_X_order_5.csv` |
+
+## Collaboration
+
+The project was developed collaboratively using modern version control and cloud-based development tools. This approach enabled efficient teamwork, continuous progress tracking, and effective coordination throughout the hackathon.
+
+The collaboration tools included:
+
+- GitHub
+- Google Colab
+- Shared Notebook Development
+- Regular Commits
+- Team Task Allocation
+
+Team responsibilities included:
+
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing
+- Data Visualization
+- Baseline Modelling
+- Advanced Modelling
+- Hyperparameter Tuning
+- Explainable AI (XAI)
+- Submission Generation
+- Presentation Preparation
+
+This collaborative workflow ensured effective task distribution, streamlined development, and successful completion of the project objectives.
