@@ -195,3 +195,49 @@ outputs/         Summary tables, model results, and analysis reports
 submissions/     Final prediction CSV files
 documentation/   Team notes and project documentation
 README.md        Project documentation
+
+## Important Plots Generated
+
+The project generates a variety of visualizations to support data exploration, model evaluation, and model interpretability. These plots help identify patterns, assess performance, and explain model predictions.
+
+The generated plots include:
+
+- Missing Value Percentages
+- Missing Value Matrix
+- Target Distribution
+- Numerical Feature Distributions
+- Outlier Boxplots
+- Categorical Feature Distributions
+- Correlation Heatmap
+- Feature-Target Relationship Plots
+- Model Comparison by ROC-AUC
+- Model Comparison by F1-Score
+- Confusion Matrix
+- ROC Curve
+- Permutation Feature Importance
+- SHAP Summary Plot
+
+These visualizations provide valuable insights into the dataset, model behaviour, and prediction outcomes.
+
+---
+
+## Summary Tables Generated
+
+The notebook also generates presentation-ready summary tables that document key findings and modelling results throughout the project.
+
+The generated tables include:
+
+- Dataset Overview Table
+- Missing Values Summary Table
+- Target Balance Table
+- Feature Type Summary Table
+- Correlation Summary Table
+- Preprocessing Decisions Table
+- Models Trained Table
+- Model Performance Table
+- Cross-Validation Results Table
+- Tuned Model Results Table
+- Feature Importance Table
+- Submission Summary Table
+
+These tables provide a structured overview of the dataset, preprocessing decisions, model performance, and final project outputs.
