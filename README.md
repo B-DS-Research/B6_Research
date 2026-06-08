@@ -152,3 +152,14 @@ The tuning process evaluated the following parameters:
 - colsample_bytree
 
 By optimizing these parameters, the model achieved a better balance between predictive performance and overfitting, resulting in improved generalization on the validation data.
+
+## Explainable AI (XAI)
+
+Explainable AI (XAI) techniques were applied to interpret model behaviour and provide greater transparency into the prediction process. These methods helped identify the most influential features and supported the critical analysis of model performance.
+
+The project included:
+
+- Permutation Feature Importance
+- SHAP (SHapley Additive exPlanations) Analysis
+
+Permutation Feature Importance was used to identify the features that had the greatest impact on model performance. SHAP analysis was applied to explain how individual features contributed to model predictions and to provide insights into the factors influencing seasonal vaccine uptake.
