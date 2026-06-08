@@ -37,6 +37,27 @@ The final prediction file contains the following columns:
 
 * `respondent_id`
 * `seasonal_vaccine`
+* 
+## Project Workflow
 
-The objective is to predict the seasonal vaccine status for each respondent in the testing dataset and generate submission files in the required format.
+1. Data Loading
+2. Dataset Overview
+3. Exploratory Data Analysis (EDA)
+4. Missing Value Analysis
+5. Target Distribution Analysis
+6. Numerical Feature Analysis
+7. Categorical Feature Analysis
+8. Correlation Analysis
+9. Feature-Target Relationship Analysis
+10. Data Leakage Assessment
+11. Data Preprocessing Pipeline
+12. Model Training
+13. Model Comparison
+14. Cross-Validation
+15. Hyperparameter Tuning
+16. Explainable AI (XAI)
+17. Submission File Generation
+18. Critical Analysis and Documentation
+
+This structured workflow ensures that the dataset is thoroughly explored, appropriately preprocessed, and evaluated using multiple machine learning techniques.
 
