@@ -93,3 +93,48 @@ The preprocessing strategy was:
 | Categorical Features | Most Frequent Imputation | OneHotEncoder |
 
 Median imputation was chosen for numerical features because it is robust to outliers, while one-hot encoding was used to convert categorical variables into a machine-learning-friendly format without introducing artificial ordinal relationships.
+
+## Models Trained
+
+Multiple machine learning models were trained and compared to identify the most effective approach for predicting seasonal vaccine uptake. The selected models range from interpretable baseline algorithms to advanced ensemble and boosting techniques.
+
+The following models were trained and evaluated:
+
+| Model | Purpose |
+|---------|---------|
+| Logistic Regression | Interpretable baseline model |
+| Decision Tree | Simple nonlinear tree model |
+| Random Forest | Robust ensemble baseline |
+| Extra Trees | Randomised tree ensemble |
+| Gradient Boosting | Sequential boosting model |
+| XGBoost | Advanced gradient boosting model |
+| LightGBM | Fast gradient boosting model |
+| CatBoost | Boosting model suitable for categorical-style data |
+
+A total of **8 machine learning models** were trained and compared to determine the best-performing approach for this classification task.
+
+---
+
+## Evaluation Metrics
+
+The trained models were evaluated using multiple classification metrics to assess their predictive performance and reliability.
+
+The evaluation metrics included:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+
+Particular emphasis was placed on **ROC-AUC** and **F1-Score**, as these metrics provide a more comprehensive assessment of binary classification performance. ROC-AUC measures the model's ability to distinguish between vaccinated and non-vaccinated respondents, while F1-Score balances precision and recall.
+
+---
+
+## Cross-Validation
+
+Stratified Cross-Validation was applied to the top-performing models to obtain a more reliable estimate of model performance and generalisation capability.
+
+The validation process ensured that the class distribution remained consistent across different folds, reducing the risk of biased evaluation results.
+
+By evaluating models across multiple data splits rather than relying on a single train-validation split, cross-validation provided a more robust assessment of model stability and predictive performance.
