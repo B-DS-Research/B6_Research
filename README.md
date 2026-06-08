@@ -163,3 +163,35 @@ The project included:
 - SHAP (SHapley Additive exPlanations) Analysis
 
 Permutation Feature Importance was used to identify the features that had the greatest impact on model performance. SHAP analysis was applied to explain how individual features contributed to model predictions and to provide insights into the factors influencing seasonal vaccine uptake.
+
+## Critical Analysis
+
+The project focused not only on model performance but also on understanding the reasoning behind key methodological decisions. A critical analysis was conducted to evaluate the strengths, limitations, and practical implications of the modelling approach.
+
+The analysis included:
+
+- Why missing values were imputed instead of removed
+- Why ROC-AUC and F1-Score were selected as key evaluation metrics
+- Why ensemble and boosting models performed strongly
+- Why linear models may have limitations for this dataset
+- How preprocessing decisions influenced model performance
+- What the most important features reveal about vaccine uptake
+- Model limitations and potential sources of bias
+- Opportunities for future improvements
+
+This analysis provided a deeper understanding of the modelling process and helped place the results within a broader data science context.
+
+---
+
+## Output Files
+
+The notebook automatically generates several output folders and files to store visualizations, results, submissions, and project documentation.
+
+The generated project structure includes:
+
+```text
+figures/         Saved EDA, performance, and XAI visualizations
+outputs/         Summary tables, model results, and analysis reports
+submissions/     Final prediction CSV files
+documentation/   Team notes and project documentation
+README.md        Project documentation
