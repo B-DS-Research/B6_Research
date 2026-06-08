@@ -138,3 +138,17 @@ Stratified Cross-Validation was applied to the top-performing models to obtain a
 The validation process ensured that the class distribution remained consistent across different folds, reducing the risk of biased evaluation results.
 
 By evaluating models across multiple data splits rather than relying on a single train-validation split, cross-validation provided a more robust assessment of model stability and predictive performance.
+
+## Hyperparameter Tuning
+
+To further improve model performance, the XGBoost classifier was optimized using **RandomizedSearchCV**. Hyperparameter tuning was performed to identify the best combination of parameters and enhance the model's ability to generalize to unseen data.
+
+The tuning process evaluated the following parameters:
+
+- n_estimators
+- max_depth
+- learning_rate
+- subsample
+- colsample_bytree
+
+By optimizing these parameters, the model achieved a better balance between predictive performance and overfitting, resulting in improved generalization on the validation data.
