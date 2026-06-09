@@ -37,7 +37,7 @@ The final prediction file contains the following columns:
 
 * `respondent_id`
 * `seasonal_vaccine`
-* 
+  
 ## Project Workflow
 
 1. Data Loading
